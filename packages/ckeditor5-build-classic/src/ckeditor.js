@@ -39,6 +39,8 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
+import './custom.css';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
